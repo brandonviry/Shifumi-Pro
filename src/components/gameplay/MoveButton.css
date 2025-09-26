@@ -1,0 +1,67 @@
+.move-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-2);
+  padding: var(--spacing-6);
+  min-width: 120px;
+  min-height: 120px;
+  border: 3px solid var(--color-surface-light);
+  border-radius: var(--border-radius);
+  background-color: var(--color-surface);
+  color: var(--color-text);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: inherit;
+}
+
+.move-button:hover:not(:disabled) {
+  transform: translateY(-4px);
+  border-color: var(--color-secondary);
+  box-shadow: var(--shadow-lg);
+}
+
+.move-button:active:not(:disabled) {
+  transform: translateY(-2px);
+}
+
+.move-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none !important;
+}
+
+.move-button.selected {
+  border-color: var(--color-secondary);
+  background-color: rgba(6, 182, 212, 0.1);
+  box-shadow: var(--shadow-lg);
+}
+
+.move-emoji {
+  font-size: 2.5rem;
+  line-height: 1;
+}
+
+.move-label {
+  font-size: var(--font-size-base);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+@media (max-width: 768px) {
+  .move-button {
+    min-width: 100px;
+    min-height: 100px;
+    padding: var(--spacing-4);
+  }
+
+  .move-emoji {
+    font-size: 2rem;
+  }
+
+  .move-label {
+    font-size: var(--font-size-sm);
+  }
+}
