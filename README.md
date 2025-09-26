@@ -164,16 +164,12 @@ npm run coverage
 
 ## 🚀 Évolutions futures
 
-- Mode tournoi (BO3/BO5)
+- ✅ Mode tournoi (BO3/BO5) - Implémenté
+- ✅ Internationalisation (FR/EN) - Implémenté
 - Multijoueur en ligne
 - Plus de types d'IA
-- Internationalisation (FR/EN)
 - Thèmes multiples (clair/sombre)
 - Statistiques avancées avec graphiques temporels
-
-## 📝 Licence
-
-Ce projet est sous licence MIT.
 
 ---
 

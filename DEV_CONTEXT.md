@@ -19,6 +19,9 @@
 - [x] **Internationalisation i18n** FR/EN avec react-i18next
 - [x] Responsive design + CSS variables
 - [x] Build et dev server fonctionnels
+- [x] **Repository GitHub** configuré et déployé
+- [x] **README.md** complet et à jour
+- [x] Licence retirée selon demande
 
 ### 🔄 Prochaines évolutions
 - [ ] Finalisation traductions anglaises dans l'interface
